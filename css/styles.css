@@ -58,14 +58,18 @@ padding-top: 94px;
  padding-bottom: 94px;
 }
 
+
 .header {
     display: flex;
     height: 80px;
     align-items: center;
     justify-content: space-between;
     padding: 0 215px 0 215px;
-    outline: 1px solid tomato;
+    outline: 1px solid tomato
 }
+
+
+
 
 /* logo */
 
@@ -84,11 +88,22 @@ text-decoration: none;
 color: var(--black-color);
 }
 
+.link-logo {
+   
+    outline: 1px solid green;
+}
+
+.hlink {
+    outline: 1px solid green;
+     display: flex;
+     align-items: center;
+}
+
 /* site nav */
 
-/* .nav .list{
+.nav {
     margin-left: 93px;
-} */
+}
 
 .site-nav.list {
 list-style: none;
@@ -115,7 +130,7 @@ color: var(--accent-color);
     margin-left: 50px;
 }
 
-/* site link */
+/* Конакти site link */
 
 
 .site-link .link {
@@ -128,7 +143,6 @@ color: var(--accent-color);
     
 }
 
-.site-link .link.current,
 .site-link .link:hover,
 .site-link .link:focus {
     color: var(--accent-color);
@@ -145,9 +159,6 @@ color: var(--accent-color);
    margin-left: 50px; 
 }
 
-.site-link .item {
-    
-}
 
 /* Контейнер Герой */
 /* .hero - костыль для визуализации */
