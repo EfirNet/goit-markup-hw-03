@@ -320,6 +320,9 @@ color: var(--white-color);
 min-width: 575px;
 height: 54px;
 display: flex;
+margin-left: 0;
+margin-right: 0;
+justify-content: center;
 }
 
 /* section PORTfolio */
