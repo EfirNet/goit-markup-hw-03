@@ -238,9 +238,12 @@ margin-right: 30px;
 
 /* Секция Наша команда COMmand */
 
+.section.com {
+    background-color: var(--bg-our-color);
+}
+
 .item.com {
 width: 270px;
-height: 368px;
 background-color: var(--white-color);
 border-radius: 0px 0px 4px 4px;
 }
@@ -270,6 +273,9 @@ list-style: none;
 .list .com {
 width: 270px;
 margin-right: 30px;
+/* border: 1px solid tomato; */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .list .com:last-child {
@@ -296,7 +302,7 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 padding: 6px 22px;
-height: 38px;
+min-height: 38px;
 min-width: 73px;
 }
 
@@ -309,10 +315,10 @@ color: var(--white-color);
 
 .container .list-button {
 min-width: 575px;
-height: 54px;
 display: flex;
 margin-left: 0;
 margin-right: 0;
+margin-bottom: 50px;
 justify-content: center;
 }
 
@@ -363,7 +369,24 @@ margin-bottom: 0;
 
 .footer {
 background-color: var(--bg-footer-color);
-padding: 60px 215px;
+padding: 60px 15px;
+}
+
+.bottom-footer {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-logo {
+display: block;
+margin-bottom: 20px;
+color: var(--accent-color);
+font-family: Raleway, Verdana,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;     
 }
 
 .studio-w {
