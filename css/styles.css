@@ -41,7 +41,8 @@ margin: 0;
 
 .container {
 width: 1200px;
-margin: 0 auto;
+margin-left:  auto;
+margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
 }
@@ -369,13 +370,10 @@ margin-bottom: 0;
 
 .footer {
 background-color: var(--bg-footer-color);
-padding: 60px 15px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
-.bottom-footer {
-    width: 1200px;
-    margin: auto;
-}
 
 .footer-logo {
 display: block;
@@ -410,12 +408,8 @@ color: var(--accent-color);
 color: var(--footer-address-rgba)
 } 
 
-.footer .list {
+.footer .list-footer {
 list-style: none;
-}
-
-.footer-address {
-margin-top: 20px;
 }
 
 .footer-address .item + .item {
